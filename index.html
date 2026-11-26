@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FA Informática | Manutenção e formatação de computadores e notebooks</title>
+<meta name="description" content="Manutenção, formatação, limpeza e upgrade de computadores e notebooks no Barreiro e região, em Belo Horizonte. Peça seu orçamento pelo WhatsApp.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 1000'%3E%3Crect width='1000' height='1000' rx='220' fill='%230B5FFF'/%3E%3Ctext x='500' y='680' font-size='520' font-family='Arial' font-weight='700' fill='white' text-anchor='middle'%3EFA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Símbolo da logo (reutilizado no cabeçalho e rodapé) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs><linearGradient id="lg" x1="0" y1="0" x2="1000" y2="1000" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#0B5FFF"/><stop offset="1" stop-color="#00C2FF"/></linearGradient></defs>
+  <symbol id="logo" viewBox="0 0 1000 1000">
+    <rect width="1000" height="1000" rx="220" fill="url(#lg)"/>
+    <g fill="#fff">
+      <polygon points="200,230 300,230 300,770 200,770"/><polygon points="200,230 450,230 450,320 200,320"/><polygon points="300,470 385,470 385,550 300,550"/>
+      <polygon points="450,770 550,770 675,230 595,230"/><polygon points="710,770 810,770 675,230 595,230"/><polygon points="555,590 700,590 700,650 555,650"/>
+    </g>
+    <circle cx="425" cy="510" r="34" fill="#7CF3FF"/>
+  </symbol>
+</svg>
+
+<header class="header" id="topo">
+  <div class="container nav">
+    <a href="#topo" class="brand" aria-label="FA Informática">
+      <svg class="brand-logo"><use href="#logo"/></svg>
+      <span><b>FA</b> Informática</span>
+    </a>
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="menu" id="menu">
+      <a href="#servicos">Serviços</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#contato" class="btn btn-small">Orçamento</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <span class="tag">Barreiro e região • Belo Horizonte</span>
+        <h1>Seu computador <span class="grad">de volta</span> ao melhor desempenho</h1>
+        <p>Manutenção, formatação, limpeza e upgrade para computadores e notebooks. Peça seu orçamento direto pelo WhatsApp.</p>
+        <div class="hero-actions">
+          <a href="#contato" class="btn">Pedir orçamento</a>
+          <a href="#servicos" class="btn btn-outline">Ver serviços</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <svg class="hero-logo"><use href="#logo"/></svg>
+        <div class="chip c1">Formatação</div>
+        <div class="chip c2">Limpeza</div>
+        <div class="chip c3">Upgrade</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="servicos">
+    <div class="container">
+      <h2 class="title">Nossos serviços</h2>
+      <p class="subtitle">Tudo o que seu PC ou notebook precisa em um só lugar.</p>
+      <div class="cards">
+        <article class="card reveal"><div class="icon">💽</div><h3>Formatação e sistema</h3><p>Instalação de Windows, drivers e programas essenciais, deixando tudo pronto para uso.</p></article>
+        <article class="card reveal"><div class="icon">🧹</div><h3>Manutenção e limpeza</h3><p>Limpeza interna e troca de pasta térmica para evitar superaquecimento e travamentos.</p></article>
+        <article class="card reveal"><div class="icon">🛡️</div><h3>Remoção de vírus</h3><p>Eliminação de vírus e programas indesejados que deixam o computador lento.</p></article>
+        <article class="card reveal"><div class="icon">⚡</div><h3>Upgrade de SSD e memória</h3><p>Deixe seu equipamento muito mais rápido com SSD e mais memória RAM.</p></article>
+        <article class="card reveal"><div class="icon">🔧</div><h3>Troca de peças</h3><p>Tela, teclado, bateria, fonte e outras peças para notebooks e computadores.</p></article>
+        <article class="card reveal"><div class="icon">💾</div><h3>Backup e dados</h3><p>Cópia de segurança dos seus arquivos antes da formatação e recuperação quando possível.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt" id="como-funciona">
+    <div class="container">
+      <h2 class="title">Como funciona</h2>
+      <p class="subtitle">Simples, rápido e sem complicação.</p>
+      <ol class="steps">
+        <li class="reveal"><span class="num">1</span><h3>Chame no WhatsApp</h3><p>Conte o problema do seu equipamento.</p></li>
+        <li class="reveal"><span class="num">2</span><h3>Diagnóstico e orçamento</h3><p>Avaliamos e informamos o valor antes de qualquer serviço.</p></li>
+        <li class="reveal"><span class="num">3</span><h3>Reparo e entrega</h3><p>Seu equipamento volta funcionando como deveria.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="diferenciais">
+    <div class="container">
+      <h2 class="title">Por que escolher a FA Informática</h2>
+      <ul class="perks">
+        <li class="reveal"><b>Orçamento transparente</b><span>Você sabe o valor antes de aprovar.</span></li>
+        <li class="reveal"><b>Cuidado com seus arquivos</b><span>Backup antes de formatar.</span></li>
+        <li class="reveal"><b>Atendimento próximo</b><span>Barreiro e região, em BH.</span></li>
+        <li class="reveal"><b>Formação técnica</b><span>Atendimento feito por técnico em informática.</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section contact" id="contato">
+    <div class="container contact-grid">
+      <div>
+        <h2 class="title light">Peça seu orçamento</h2>
+        <p class="light-text">Preencha o formulário e a mensagem será enviada pronta para o nosso WhatsApp.</p>
+        <a class="contact-link" id="waDirect" href="#" target="_blank" rel="noopener">💬 Chamar no WhatsApp</a>
+        <a class="contact-link" id="igLink" href="#" target="_blank" rel="noopener">📷 Instagram</a>
+      </div>
+      <form class="form" id="form">
+        <label>Seu nome<input type="text" id="nome" required placeholder="Ex.: Maria"></label>
+        <label>Equipamento
+          <select id="equip">
+            <option>Notebook</option><option>Computador de mesa</option><option>Outro</option>
+          </select>
+        </label>
+        <label>O que está acontecendo?<textarea id="problema" rows="4" required placeholder="Ex.: está lento, não liga, quero formatar..."></textarea></label>
+        <button type="submit" class="btn">Enviar pelo WhatsApp</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container foot">
+    <div class="brand"><svg class="brand-logo"><use href="#logo"/></svg><span><b>FA</b> Informática</span></div>
+    <p>Manutenção e formatação de computadores e notebooks • Barreiro e região, Belo Horizonte – MG</p>
+    <small>© <span id="ano"></span> FA Informática. Todos os direitos reservados.</small>
+  </div>
+</footer>
+
+<a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">💬</a>
+
+<script src="script.js"></script>
+</body>
+</html>
